@@ -1,0 +1,80 @@
+h1:hover{
+    font-size: 80px;
+    text-shadow:  1px 2px 5px red;
+}
+h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-shadow:  1px 2px 5px rgb(30, 255, 0);
+    font-size: 70px;
+    transition-duration: 0.4s;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+button {
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    transition-duration: 0.5s;
+    background-color: white;
+    color: green;
+    border-radius: 8px;
+    border: 3px solid green;
+}  
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 35px;
+    box-shadow: 1px 0.5px 5px 6px green;
+    border: 3px solid white;
+}
+body{
+
+    background-image: url("background.jpg");
+    height: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+canvas{
+    animation-name: example;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    background-image: linear-gradient(to bottom left, rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9), rgba(255, 105, 180, 0.9), rgba(64, 224, 208, 0.9));
+}
+canvas:hover{
+    animation-name: hover;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px darkmagenta;}
+}
+@keyframes hover{
+    from{box-shadow: 1px 1px 38px rgb(255, 0, 234);}
+    to{box-shadow: 1px 1px 38px blue;}
+    from {left: 10px;}
+    to {left: 480px;}
+}
+h6:hover{
+    font-size: 100px;
+    text-shadow:  1px 2px 5px rgb(30, 255, 0);
+}
+h6{
+    font-family:'Lovers Quarrel', cursive;
+    text-shadow:  1px 2px 5px red;
+    font-size: 80px;
+    transition-duration: 0.4s;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+}
